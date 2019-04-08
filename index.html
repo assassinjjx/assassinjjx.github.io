@@ -62,6 +62,96 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-hw4" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/04/08/hw4/" class="article-date">
+  <time datetime="2019-04-08T06:34:03.000Z" itemprop="datePublished">2019-04-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/04/08/hw4/">hw4</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="1、简答题"><a href="#1、简答题" class="headerlink" title="1、简答题"></a>1、简答题</h1><h2 id="1-用例的概念"><a href="#1-用例的概念" class="headerlink" title="1.用例的概念"></a>1.用例的概念</h2><p>用例是一组用以描述参与用户使用系统达成某一目标的相关成功和失败场景。</p>
+<h2 id="2-用例和场景的关系？什么是主场景或-happy-path？"><a href="#2-用例和场景的关系？什么是主场景或-happy-path？" class="headerlink" title="2.用例和场景的关系？什么是主场景或 happy path？"></a>2.用例和场景的关系？什么是主场景或 happy path？</h2><ul>
+<li><strong>关系：</strong>用例场景表示场景的集合，由主场景再加上零个或多个备选场景构成。</li>
+<li><strong>主场景：</strong>与主系统交互相关，通常是“成功”场景。</li>
+</ul>
+<h2 id="3-用例有哪些形式？"><a href="#3-用例有哪些形式？" class="headerlink" title="3.用例有哪些形式？"></a>3.用例有哪些形式？</h2><ul>
+<li><strong>Brief：</strong>简短的一段总结，通常是主要的成功场景。在早期的需求分析中，为了快速了解主题和范围，可能只需要几分钟就可以创建。</li>
+<li><strong>Casual：</strong>非正式段落格式。涵盖各种场景的多个段落。</li>
+<li><strong>Fully：</strong>详细描述了所有步骤和变化，并有支持部分，如先决条件和成功保证。</li>
+</ul>
+<h2 id="4-对于复杂业务，为什么编制完整用例非常难？"><a href="#4-对于复杂业务，为什么编制完整用例非常难？" class="headerlink" title="4.对于复杂业务，为什么编制完整用例非常难？"></a>4.对于复杂业务，为什么编制完整用例非常难？</h2><p>用例是之后实现功能的目标，对于复杂业务来说，场景多，用例比较复杂，完整用例可以保证功能流程清晰，防止之后因复杂的反复修正而造成的浪费。</p>
+<h2 id="5-什么是用例图？"><a href="#5-什么是用例图？" class="headerlink" title="5.什么是用例图？"></a>5.什么是用例图？</h2><p>用例图是对系统上下文的一个很好的描述：</p>
+<ul>
+<li>是一个很好的背景图；</li>
+<li>显示系统的边界、系统外部的内容以及如何使用；</li>
+<li>作为总结系统及其参与者行为的沟通工具，是用户所能观察到的系统功能的模型图。</li>
+</ul>
+<h2 id="6-用例图的基本符号与元素？"><a href="#6-用例图的基本符号与元素？" class="headerlink" title="6.用例图的基本符号与元素？"></a>6.用例图的基本符号与元素？</h2><ol>
+<li><strong>基本符号：</strong><br><img src="/2019/04/08/hw4/1.png" alt="image"></li>
+<li><strong>元素：</strong>  <ol>
+<li><strong>参与者：</strong>表示一个系统用户，也就是与应用程序进行交互的用户、组织或者外部系统。</li>
+<li><strong>用例：</strong>表示的是对系统提供的功能、服务的一种描述。</li>
+<li><strong>用力关系：</strong><ol>
+<li><strong>包含关系(Include)：</strong>表示用例可以简单地包含其他用例所具有的行为，并把它所包含的用例行为作为自身行为的一部分。在UML中常用带箭头的虚线表示，箭头指向被包含的用例。</li>
+<li><strong>泛化关系(Generalization)：</strong>泛化指的是一个父用例可以被特化形成多个子用例，而父用例和子用例之间的关系就是泛化关系。在UML中用空心三角箭头的实线表示，箭头指向父用例。</li>
+<li><strong>关联关系(Association)：</strong>表示的是参与者与用例之间的关系。在UML中常用一条直线，或者是一条带箭头的线条来表示，箭头指向信息接收方。</li>
+<li><strong>扩展/延伸关系(Extend)：</strong>表示在一定条件下，把新的行为加入到已有的用例中，获得的新用例叫做扩展用例，原有的用例叫做基础用例，相当于为基础用例提供一个附加功能。在UML中用带箭头的虚线表示，箭头指向基础用例。</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="7-用例图的画法与步骤"><a href="#7-用例图的画法与步骤" class="headerlink" title="7.用例图的画法与步骤"></a>7.用例图的画法与步骤</h2><ol>
+<li>先将系统框放在中间，系统名写在系统框正上方。</li>
+<li>确定参与者并画在系统框的左边：<ol>
+<li>谁将使用该系统的主要功能。  </li>
+<li>谁将需要该系统的支持以完成其工作。 </li>
+<li>谁将需要维护、管理该系统，以及保持该系统处于工作状态。  </li>
+<li>系统需要处理哪些硬件设备。  </li>
+<li>与该系统那个交互的是什么系统。 </li>
+<li>谁或什么系统对本系统产生的结果感兴趣。</li>
+</ol>
+</li>
+<li>确定参与者之间的关系。<br><img src="/2019/04/08/hw4/2.png" alt="image"></li>
+<li>识别用例：可以从每一个参与者是如何使用系统的,或者每一个系统功能是如何与其参与者发生交互的考虑出发，将结果画在系统框里面。</li>
+<li>识别用例与用例之间，用例与参与者之间的关系：<ol>
+<li>包含关系：<br><img src="/2019/04/08/hw4/3.png" alt="image"></li>
+<li>扩展/延伸关系：<br><img src="/2019/04/08/hw4/4.png" alt="image"></li>
+<li>关联关系：<br><img src="/2019/04/08/hw4/5.png" alt="image"></li>
+<li>泛化关系：<br><img src="/2019/04/08/hw4/6.png" alt="image"></li>
+</ol>
+</li>
+</ol>
+<h2 id="8-用例图给利益相关人与开发者的价值有哪些？"><a href="#8-用例图给利益相关人与开发者的价值有哪些？" class="headerlink" title="8.用例图给利益相关人与开发者的价值有哪些？"></a>8.用例图给利益相关人与开发者的价值有哪些？</h2><p>对于利益相关人来说可以直观看到系统的结果和用户的功能体验。对于开发者来说用例图是设计者设计过程的结论与参考，设计者与开发者之间的交流工具，开发者开发过程的蓝图。</p>
+<h1 id="2、建模练习题（用例模型）"><a href="#2、建模练习题（用例模型）" class="headerlink" title="2、建模练习题（用例模型）"></a>2、建模练习题（用例模型）</h1><h2 id="选择2-3个你熟悉的类似业务的在线服务系统（或移动-APP），如定旅馆（携程、去哪儿等）、定电影票、背单词APP等，分别绘制它们用例图。"><a href="#选择2-3个你熟悉的类似业务的在线服务系统（或移动-APP），如定旅馆（携程、去哪儿等）、定电影票、背单词APP等，分别绘制它们用例图。" class="headerlink" title="选择2-3个你熟悉的类似业务的在线服务系统（或移动 APP），如定旅馆（携程、去哪儿等）、定电影票、背单词APP等，分别绘制它们用例图。"></a>选择2-3个你熟悉的类似业务的在线服务系统（或移动 APP），如定旅馆（携程、去哪儿等）、定电影票、背单词APP等，分别绘制它们用例图。</h2><h2 id="回答下列问题"><a href="#回答下列问题" class="headerlink" title="回答下列问题"></a>回答下列问题</h2><h3 id="1-为什么相似系统的用例图是相似的？"><a href="#1-为什么相似系统的用例图是相似的？" class="headerlink" title="1.为什么相似系统的用例图是相似的？"></a>1.为什么相似系统的用例图是相似的？</h3><h3 id="2-如果是定旅馆业务，请对比-Asg-RH-用例图，简述如何利用不同时代、不同地区产品的用例图，展现、突出创新业务和技术"><a href="#2-如果是定旅馆业务，请对比-Asg-RH-用例图，简述如何利用不同时代、不同地区产品的用例图，展现、突出创新业务和技术" class="headerlink" title="2.如果是定旅馆业务，请对比 Asg_RH 用例图，简述如何利用不同时代、不同地区产品的用例图，展现、突出创新业务和技术"></a>2.如果是定旅馆业务，请对比 Asg_RH 用例图，简述如何利用不同时代、不同地区产品的用例图，展现、突出创新业务和技术</h3><h3 id="3-如何利用用例图定位创新思路（业务创新、或技术创新、或商业模式创新）在系统中的作用"><a href="#3-如何利用用例图定位创新思路（业务创新、或技术创新、或商业模式创新）在系统中的作用" class="headerlink" title="3.如何利用用例图定位创新思路（业务创新、或技术创新、或商业模式创新）在系统中的作用"></a>3.如何利用用例图定位创新思路（业务创新、或技术创新、或商业模式创新）在系统中的作用</h3><h3 id="4-请使用-SCRUM-方法，选择一个用例图，编制某定旅馆开发的需求（backlog）开发计划表"><a href="#4-请使用-SCRUM-方法，选择一个用例图，编制某定旅馆开发的需求（backlog）开发计划表" class="headerlink" title="4.请使用 SCRUM 方法，选择一个用例图，编制某定旅馆开发的需求（backlog）开发计划表"></a>4.请使用 SCRUM 方法，选择一个用例图，编制某定旅馆开发的需求（backlog）开发计划表</h3><h3 id="5-根据任务4，参考使用用例点估算软件成本，给出项目用例点的估算"><a href="#5-根据任务4，参考使用用例点估算软件成本，给出项目用例点的估算" class="headerlink" title="5.根据任务4，参考使用用例点估算软件成本，给出项目用例点的估算"></a>5.根据任务4，参考使用用例点估算软件成本，给出项目用例点的估算</h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/04/08/hw4/" data-id="cju8ca7mm000144qjf2bs711u" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-hw3" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/03/20/hw3/" class="article-date">
@@ -146,7 +236,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/03/20/hw3/" data-id="cjtgvhsjn0003v8qj10a1qzh4" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/03/20/hw3/" data-id="cju8ca7m8000044qjt1t3uyne" class="article-share-link">Share</a>
       
       
     </footer>
@@ -207,7 +297,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/03/14/hw2/" data-id="cjtgvhsjf0001v8qjt224stl9" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/03/14/hw2/" data-id="cju8ca7mp000344qjlii32xaq" class="article-share-link">Share</a>
       
       
     </footer>
@@ -348,7 +438,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/03/11/hw1/" data-id="cjtgvhsjk0002v8qj5cv9djwf" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/03/11/hw1/" data-id="cju8ca7o9000444qjuymru964" class="article-share-link">Share</a>
       
       
     </footer>
@@ -393,7 +483,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/03/04/hello-world/" data-id="cjtgvhsil0000v8qjoxlgxs0x" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/03/04/hello-world/" data-id="cju8ca7mn000244qj7q1twotl" class="article-share-link">Share</a>
       
       
     </footer>
@@ -421,7 +511,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">March 2019</a></li></ul>
     </div>
   </div>
 
@@ -432,6 +522,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/04/08/hw4/">hw4</a>
+          </li>
         
           <li>
             <a href="/2019/03/20/hw3/">HW3</a>
