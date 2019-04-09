@@ -23,7 +23,7 @@
 <meta property="og:image" content="http://yoursite.com/2019/04/08/hw4/7.png">
 <meta property="og:image" content="http://yoursite.com/2019/04/08/hw4/8.png">
 <meta property="og:image" content="http://yoursite.com/2019/04/08/hw4/9.png">
-<meta property="og:updated_time" content="2019-04-09T09:35:06.262Z">
+<meta property="og:updated_time" content="2019-04-09T09:46:52.492Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HW4">
 <meta name="twitter:description" content="1、简答题1.用例的概念用例是一组用以描述参与用户使用系统达成某一目标的相关成功和失败场景。 2.用例和场景的关系？什么是主场景或 happy path？ 关系：用例场景表示场景的集合，由主场景再加上零个或多个备选场景构成。 主场景：与主系统交互相关，通常是“成功”场景。  3.用例有哪些形式？ Brief：简短的一段总结，通常是主要的成功场景。在早期的需求分析中，为了快速了解主题和范围，可能只需">
@@ -160,61 +160,103 @@
 <thead>
 <tr>
 <th style="text-align:center">ID</th>
-<th style="text-align:center">Name</th>
-<th style="text-align:center">Imp</th>
+<th style="text-align:center">Title</th>
 <th style="text-align:center">Est</th>
-<th style="text-align:center">How to demo</th>
-<th style="text-align:center">Notes</th>
+<th style="text-align:center">Iter</th>
+<th style="text-align:center">Imp</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td style="text-align:center">10101</td>
+<td style="text-align:center">find hotel</td>
+<td style="text-align:center">8</td>
 <td style="text-align:center">1</td>
-<td style="text-align:center">查找酒店</td>
-<td style="text-align:center">15</td>
-<td style="text-align:center">4</td>
-<td style="text-align:center">选择酒店地点，地图顶点信息查找</td>
-<td style="text-align:center">方式有两个</td>
+<td style="text-align:center">5</td>
 </tr>
 <tr>
+<td style="text-align:center">10102</td>
+<td style="text-align:center">find by location</td>
 <td style="text-align:center">2</td>
-<td style="text-align:center">预定酒店</td>
-<td style="text-align:center">25</td>
-<td style="text-align:center">10</td>
-<td style="text-align:center">选择酒店，选择房间类型，填写入住时间</td>
-<td style="text-align:center">步骤按照先后</td>
-</tr>
-<tr>
 <td style="text-align:center">3</td>
-<td style="text-align:center">查询结果排序</td>
-<td style="text-align:center">10</td>
 <td style="text-align:center">5</td>
-<td style="text-align:center">查找酒店，预订酒店时酒店结果可以选择不同的方式排序</td>
-<td style="text-align:center">方式多样</td>
 </tr>
 <tr>
+<td style="text-align:center">10103</td>
+<td style="text-align:center">find on map</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">3</td>
+</tr>
+<tr>
+<td style="text-align:center">10104</td>
+<td style="text-align:center">GPS API learning</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">3</td>
+</tr>
+<tr>
+<td style="text-align:center">10111</td>
+<td style="text-align:center">make reservation</td>
+<td style="text-align:center">30</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:center">10112</td>
+<td style="text-align:center">choose hotel</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:center">10112</td>
+<td style="text-align:center">choose home type</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:center">10112</td>
+<td style="text-align:center">choose time</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:center">10112</td>
+<td style="text-align:center">confirm reservation</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:center">10112</td>
+<td style="text-align:center">input necessary info</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:center">10112</td>
+<td style="text-align:center">verity by hotel</td>
+<td style="text-align:center">2</td>
 <td style="text-align:center">4</td>
-<td style="text-align:center">付款</td>
-<td style="text-align:center">20</td>
-<td style="text-align:center">7</td>
-<td style="text-align:center">预定酒店时通过外部系统付款</td>
-<td style="text-align:center">方式多样</td>
+<td style="text-align:center">4</td>
 </tr>
 <tr>
+<td style="text-align:center">10121</td>
+<td style="text-align:center">pay</td>
 <td style="text-align:center">5</td>
-<td style="text-align:center">订单管理</td>
-<td style="text-align:center">15</td>
-<td style="text-align:center">5</td>
-<td style="text-align:center">增删查订单</td>
-<td style="text-align:center">与用户信息相关</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">4</td>
 </tr>
 <tr>
-<td style="text-align:center">6</td>
-<td style="text-align:center">确认订单</td>
-<td style="text-align:center">15</td>
+<td style="text-align:center">10104</td>
+<td style="text-align:center">payment API learning</td>
+<td style="text-align:center">5</td>
 <td style="text-align:center">3</td>
-<td style="text-align:center">预订酒店的最后完成所有事项进行确认</td>
-<td style="text-align:center">与订单管理相关</td>
+<td style="text-align:center">4</td>
 </tr>
 </tbody>
 </table>
@@ -277,7 +319,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/04/08/hw4/" data-id="cju9la3ds0003e4qjaxgv4w1j" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/04/08/hw4/" data-id="cju9lp2380004zcqjtzh8cmej" class="article-share-link">Share</a>
       
       
     </footer>
